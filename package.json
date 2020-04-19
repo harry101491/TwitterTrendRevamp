@@ -1,0 +1,23 @@
+{
+  "name": "tweetmaprevamp",
+  "version": "1.0.0",
+  "description": "Typscript and docker version of Tweet Trend app",
+  "main": "app.ts",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node dist/app.js"
+  },
+  "author": "Harshit Pareek",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.6",
+    "@types/node": "^13.11.1",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3",
+    "ts-node": "^8.8.2",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  }
+}
